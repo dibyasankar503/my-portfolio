@@ -19,7 +19,7 @@ export default function Contact() {
         transition={{ delay: 0.4 }}
         className="text-gray-400 text-lg"
       >
-        Email: youremail@gmail.com
+        Email: dibyasankar503@gmail.com
       </motion.p>
 
       <motion.p
@@ -28,7 +28,7 @@ export default function Contact() {
         transition={{ delay: 0.6 }}
         className="text-gray-400 text-lg mt-2"
       >
-        GitHub: github.com/yourusername
+        GitHub: github.com/dibyasankar503
       </motion.p>
 
       <motion.p
@@ -37,7 +37,7 @@ export default function Contact() {
         transition={{ delay: 0.8 }}
         className="text-gray-400 text-lg mt-2"
       >
-        LinkedIn: linkedin.com/in/yourusername
+        LinkedIn: linkedin.com/in/dibyasankar503
       </motion.p>
     </main>
   );

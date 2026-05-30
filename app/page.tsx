@@ -24,19 +24,20 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
-        className="text-2xl mt-4 text-cyan-400 font-medium"
+        className="text-2xl md:text-3xl mt-4 text-cyan-400 font-medium"
       >
-        Computer Science Student
+        Full Stack Developer | Python | Next.js
       </motion.p>
 
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8 }}
-        className="mt-6 max-w-2xl text-gray-500 text-lg"
+        className="mt-6 max-w-3xl text-gray-400 text-lg leading-relaxed"
       >
-        Passionate about Web Development, Software Engineering, and Building
-        Modern Applications.
+        Passionate about building modern web applications, solving real-world
+        problems, and creating beautiful digital experiences using Python,
+        React, Next.js, Flask, and modern web technologies.
       </motion.p>
 
       <motion.div
@@ -49,7 +50,7 @@ export default function Home() {
           onClick={() => (window.location.href = "/projects")}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          className="px-6 py-3 bg-white text-black rounded-lg font-semibold"
+          className="px-6 py-3 bg-cyan-400 text-black rounded-lg font-semibold"
         >
           View Projects
         </motion.button>
@@ -58,7 +59,7 @@ export default function Home() {
           onClick={() => (window.location.href = "/contact")}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
-          className="px-6 py-3 border border-white rounded-lg"
+          className="px-6 py-3 border border-cyan-400 rounded-lg"
         >
           Contact Me
         </motion.button>
