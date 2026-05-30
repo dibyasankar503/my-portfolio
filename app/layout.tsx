@@ -14,8 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dibyasankar Das",
-  description: "Portfolio Website",
+  title: "Dibyasankar Das | Full Stack Developer",
+  description:
+    "Portfolio of Dibyasankar Das - Full Stack Developer specializing in Python, Flask, React and Next.js.",
+    icons: {
+  icon: "/favicon.ico",
+},
 };
 
 export default function RootLayout({

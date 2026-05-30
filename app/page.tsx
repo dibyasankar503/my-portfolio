@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -23,6 +24,20 @@ export default function Home() {
       </motion.p>
 
       {/* Name */}
+      <motion.div
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.8 }}
+  className="mb-8"
+>
+  <Image
+    src="/profile.jpg"
+    alt="Profile"
+    width={180}
+    height={180}
+    className="rounded-full border-4 border-cyan-400 shadow-[0_0_40px_rgba(34,211,238,0.6)]"
+  />
+</motion.div>
       <motion.h1
         initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
