@@ -20,6 +20,16 @@ export default function Home() {
         transition={{ duration: 0.5 }}
         className="uppercase tracking-[0.3em] text-sm text-cyan-400 mb-4"
       >
+        <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.3 }}
+  className="mb-4"
+>
+  <span className="px-4 py-2 bg-green-500/20 text-green-400 rounded-full text-sm">
+    ● Available for Work
+  </span>
+</motion.div>
         Welcome To My Portfolio
       </motion.p>
 
@@ -45,6 +55,32 @@ export default function Home() {
         className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent"
       >
         Dibyasankar Das
+        <motion.p
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.4 }}
+  className="text-gray-500 mt-3 text-lg"
+>
+  Odisha, India
+  <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 0.6 }}
+  className="flex gap-3 mt-4"
+>
+  <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm">
+    🚀 Fast Learner
+  </span>
+
+  <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm">
+    💡 Problem Solver
+  </span>
+
+  <span className="px-3 py-1 bg-zinc-800 rounded-full text-sm">
+    🔥 Open Source
+  </span>
+</motion.div>
+</motion.p>
       </motion.h1>
 
       {/* Role */}
@@ -122,6 +158,37 @@ export default function Home() {
           Flask
         </span>
       </motion.div>
+      <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 1.7 }}
+  className="mt-8 text-gray-400"
+>
+  <p>
+    Building scalable web applications with modern technologies.
+  </p>
+  <motion.div
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 1.9 }}
+  className="mt-10 flex gap-10 text-center"
+>
+  <div>
+    <h3 className="text-2xl font-bold text-cyan-400">2026</h3>
+    <p className="text-gray-500">Started Journey</p>
+  </div>
+
+  <div>
+    <h3 className="text-2xl font-bold text-cyan-400">5+</h3>
+    <p className="text-gray-500">Technologies</p>
+  </div>
+
+  <div>
+    <h3 className="text-2xl font-bold text-cyan-400">2+</h3>
+    <p className="text-gray-500">Projects</p>
+  </div>
+</motion.div>
+</motion.div>
 
       {/* Stats */}
       <motion.div
